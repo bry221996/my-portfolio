@@ -1,6 +1,8 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import WorkExperience from "@/components/WorkExperience";
 import Head from "next/head";
@@ -28,6 +30,14 @@ export default function Home() {
 
       <section id="clients" className="snap-start">
         <Skills />
+      </section>
+
+      <section id="pricing" className="snap-start">
+        <Projects />
+      </section>
+
+      <section id="contact" className="snap-start">
+        <Contact />
       </section>
     </div>
   );
