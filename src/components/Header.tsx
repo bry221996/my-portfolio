@@ -16,12 +16,17 @@ const Header = (props: Props) => {
         className="flex flex-row items-center"
       >
         <SocialIcon
-          url="https://www.youtube.com/@SonnySangha"
+          url="https://www.linkedin.com/in/bryan-mulingbayan-b915aa168/"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.youtube.com/@SonnySangha"
+          url="https://github.com/bry221996"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://web.facebook.com/bryan.mulingbayan.22/"
           fgColor="gray"
           bgColor="transparent"
         />
@@ -35,7 +40,7 @@ const Header = (props: Props) => {
       >
         <SocialIcon
           className="cursor-pointer"
-          network="email"
+          url="mailto:bryan.mulingbayan96@gmail.com"
           fgColor="gray"
           bgColor="transparent"
         />

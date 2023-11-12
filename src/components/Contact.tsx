@@ -28,20 +28,22 @@ const Contact = (props: Props) => {
       </h3>
 
       <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center">
+        <h4 className="text-xl md:text-4xl font-semibold text-center">
           I have got what you need.{" "}
           <span className="decoration-[#F7Ab0A]/50 underline">Lets Talk.</span>
         </h4>
 
         <div className="space-y-10">
-          <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+639051396541</p>
+          <div className="flex items-center space-x-3 md:space-x-5 justify-center">
+            <PhoneIcon className="text-[#F7AB0A] h-5 w-5 md:h-7 mdw-7 animate-pulse" />
+            <p className="text-base md:text-2xl">+639051396541</p>
           </div>
 
-          <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">bryan.mulingbayan96@gmail.com</p>
+          <div className="flex items-center space-x-3 md:space-x-5 justify-center">
+            <EnvelopeIcon className="text-[#F7AB0A] h-5 w-5 md:h-7 mdw-7 animate-pulse" />
+            <p className="text-base md:text-2xl">
+              bryan.mulingbayan96@gmail.com
+            </p>
           </div>
 
           <Formik
@@ -92,7 +94,7 @@ const Contact = (props: Props) => {
 
                 <button
                   type="submit"
-                  className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg w-full"
+                  className="bg-[#F7AB0A] py-3 md:py-5 px-10 rounded-md text-black font-bold text-base md:text-lg w-full"
                 >
                   Submit
                 </button>

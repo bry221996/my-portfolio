@@ -25,10 +25,19 @@ const Hero = (props: Props) => {
       <Image
         width={128}
         height={128}
-        className="relative rounded-full mx-auto object-cover"
+        className="relative rounded-full mx-auto object-cover flex-shrink-0 w-32 h-32"
         alt="Image"
         src="/hero.jpg"
       />
+
+      {/* <motion.img
+        initial={{ x: -200, opacity: 0 }}
+        transition={{ duration: 1.2 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
+        src="/hero.jpg"
+        className="mt-36 -mb:20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
+      /> */}
 
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
