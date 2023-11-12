@@ -4,6 +4,6 @@ export interface ProjectType {
   name: string;
   logo: string;
   url: string;
-  description: string;
+  description: string[];
   skills: Skill[];
 }
