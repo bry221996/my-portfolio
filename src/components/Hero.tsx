@@ -13,6 +13,7 @@ const Hero = (props: Props) => {
     words: [
       "Hi, The name's Bryan Mulingbayan",
       "Who loves challenging opportunies",
+      "Let's turn ideas into reality through the power of code and innovation!",
     ],
     loop: true,
     delaySpeed: 2000,
