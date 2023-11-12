@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Bryan Mulingbayan</title>
+        <title>Better Seller</title>
       </Head>
 
       <Header />
