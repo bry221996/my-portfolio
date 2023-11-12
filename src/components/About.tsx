@@ -29,22 +29,30 @@ const About = (props: Props) => {
         <h4 className="text-xl md:text-4xl font-semibold">
           Here is a little background
         </h4>
-        <p className="text-xs md:text-sm">
-          Mauris dolor mi, varius id eros id, placerat rutrum justo. Maecenas
-          placerat, velit et eleifend tincidunt, metus arcu finibus urna, non
-          molestie libero augue vel erat. Aliquam a ex rutrum, vestibulum purus
-          a, volutpat tellus. Aliquam pellentesque tellus vel nibh congue, sed
-          dictum libero euismod. Sed imperdiet sem at semper maximus. Curabitur
-          venenatis orci mi. Nullam vel justo dignissim ipsum molestie venenatis
-          ut quis orci. Donec ut tortor vel magna mollis lacinia sed nec sapien.
-          Proin mattis risus quis leo imperdiet viverra. Curabitur tempor
-          ullamcorper leo. Donec lorem orci, dictum eget fermentum at, ultricies
-          vitae sapien. Etiam volutpat interdum diam et tempor. Morbi gravida
-          ipsum et purus mattis, eget tempus mi commodo. Morbi nec enim
-          dignissim dui efficitur maximus. Nulla facilisi. Pellentesque
-          fringilla lorem vestibulum diam scelerisque, vitae faucibus orci
-          pellentesque.
-        </p>
+        <div className="text-xs md:text-sm space-y-2 md:space-y-4">
+          <p>
+            Hello, I'm Bryan Mulingbayan, a passionate and dedicated software
+            engineer based in the Philippines. I'm 27 years old and embarked on
+            my journey in the world of technology after graduating with a
+            Bachelor of Science degree in Computer Engineering in 2018.
+          </p>
+
+          <p>
+            With over 5 years of professional experience under my belt, I've
+            been fortunate to collaborate on a multitude of projects that have
+            honed my technical skills and deepened my love for crafting digital
+            solutions.
+          </p>
+
+          <p>
+            My mission as a software engineer is clear: I aspire to make a
+            positive impact by harnessing the power of technology. I believe
+            that technology has the potential to transform businesses and enrich
+            people's lives. By constantly learning and evolving, I'm committed
+            to building innovative software solutions that address real-world
+            challenges, streamline processes, and improve efficiency.
+          </p>
+        </div>
       </div>
     </motion.div>
   );
