@@ -98,7 +98,7 @@ const Skills = () => {
         Hover over a skill for currency proficiency
       </h3>
 
-      <div className="absolute grid grid-cols-4 gap-5 top-48">
+      <div className="absolute grid grid-cols-3 md:grid-cols-4 gap-5 top-48">
         {skills.map((skill, id) => (
           <Skill key={`skill-${id}`} skill={skill} />
         ))}

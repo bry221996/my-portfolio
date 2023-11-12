@@ -154,7 +154,7 @@ const Projects = (props: Props) => {
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
         {projects.map((project) => (
           <div
-            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"
+            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 h-screen"
             key={project.name}
           >
             <motion.img
@@ -170,7 +170,7 @@ const Projects = (props: Props) => {
                 {project.name}
               </h4>
 
-              <p className="text-lg text-center md:text-left">
+              <p className="text-sm lg:text-lg text-center md:text-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut
                 ex odio. Fusce nec sodales arcu, sagittis tempor velit. Fusce
                 congue, tellus sit amet posuere mollis, justo mauris laoreet
