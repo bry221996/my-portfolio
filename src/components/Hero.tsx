@@ -9,8 +9,11 @@ import Link from "next/link";
 type Props = {};
 
 const Hero = (props: Props) => {
-  const [text, count] = useTypewriter({
-    words: ["Better Seller", "Saas Application", "Microservice"],
+  const [text] = useTypewriter({
+    words: [
+      "Hi, The name's Bryan Mulingbayan",
+      "Who loves challenging opportunies",
+    ],
     loop: true,
     delaySpeed: 2000,
   });
@@ -29,7 +32,7 @@ const Hero = (props: Props) => {
 
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
-          Better Seller
+          Software Engineer
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
           <span className="mr-3">{text}</span>
@@ -40,14 +43,11 @@ const Hero = (props: Props) => {
           <Link href="#about">
             <button className="heroButton">About</button>
           </Link>
-          <Link href="#features">
-            <button className="heroButton">Features</button>
+          <Link href="#skills">
+            <button className="heroButton">Skills</button>
           </Link>
-          <Link href="#clients">
-            <button className="heroButton">Clients</button>
-          </Link>
-          <Link href="#pricing">
-            <button className="heroButton">Pricing</button>
+          <Link href="#projects">
+            <button className="heroButton">Projects</button>
           </Link>
         </div>
       </div>
