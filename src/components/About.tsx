@@ -31,26 +31,27 @@ const About = (props: Props) => {
         </h4>
         <div className="text-xs md:text-sm space-y-2 md:space-y-4">
           <p>
-            Hello, I'm Bryan Mulingbayan, a passionate and dedicated software
-            engineer based in the Philippines. I'm 27 years old and embarked on
-            my journey in the world of technology after graduating with a
-            Bachelor of Science degree in Computer Engineering in 2018.
+            Hello, I&apos;m Bryan Mulingbayan, a passionate and dedicated
+            software engineer based in the Philippines. I&apos;m 27 years old
+            and embarked on my journey in the world of technology after
+            graduating with a Bachelor of Science degree in Computer Engineering
+            in 2018.
           </p>
 
           <p>
-            With over 5 years of professional experience under my belt, I've
-            been fortunate to collaborate on a multitude of projects that have
-            honed my technical skills and deepened my love for crafting digital
-            solutions.
+            With over 5 years of professional experience under my belt,
+            I&apos;ve been fortunate to collaborate on a multitude of projects
+            that have honed my technical skills and deepened my love for
+            crafting digital solutions.
           </p>
 
           <p>
             My mission as a software engineer is clear: I aspire to make a
             positive impact by harnessing the power of technology. I believe
             that technology has the potential to transform businesses and enrich
-            people's lives. By constantly learning and evolving, I'm committed
-            to building innovative software solutions that address real-world
-            challenges, streamline processes, and improve efficiency.
+            people&apos;s lives. By constantly learning and evolving, I&apos;m
+            committed to building innovative software solutions that address
+            real-world challenges, streamline processes, and improve efficiency.
           </p>
         </div>
       </div>
