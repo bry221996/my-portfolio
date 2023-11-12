@@ -21,13 +21,15 @@ const About = (props: Props) => {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        src="https://dykynznipbar7.cloudfront.net/icon-touch-180x180.png"
+        src="/hero.jpg"
         className="mt-48 -mb:20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
       />
 
       <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold ">Here is a little background</h4>
-        <p className="text-sm">
+        <h4 className="text-xl md:text-4xl font-semibold">
+          Here is a little background
+        </h4>
+        <p className="text-xs md:text-sm">
           Mauris dolor mi, varius id eros id, placerat rutrum justo. Maecenas
           placerat, velit et eleifend tincidunt, metus arcu finibus urna, non
           molestie libero augue vel erat. Aliquam a ex rutrum, vestibulum purus

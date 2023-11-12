@@ -27,7 +27,7 @@ const Hero = (props: Props) => {
         height={128}
         className="relative rounded-full mx-auto object-cover"
         alt="Image"
-        src={"https://dykynznipbar7.cloudfront.net/icon-touch-180x180.png"}
+        src="/hero.jpg"
       />
 
       <div className="z-20">
