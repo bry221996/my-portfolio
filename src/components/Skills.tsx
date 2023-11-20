@@ -8,77 +8,77 @@ const Skills = () => {
   const skills: SkillType[] = [
     {
       name: "HTML",
-      proficiency: 100,
+      proficiency: 90,
       logo: "/skill-icons/html.png",
     },
     {
       name: "CSS",
-      proficiency: 100,
+      proficiency: 90,
       logo: "/skill-icons/css.png",
     },
     {
       name: "JS",
-      proficiency: 100,
+      proficiency: 90,
       logo: "/skill-icons/js.png",
     },
     {
       name: "ReactJS",
-      proficiency: 100,
+      proficiency: 80,
       logo: "/skill-icons/react.png",
     },
     {
       name: "NextJS",
-      proficiency: 100,
+      proficiency: 80,
       logo: "/skill-icons/next.png",
     },
     {
       name: "VueJS",
-      proficiency: 100,
+      proficiency: 80,
       logo: "/skill-icons/vue.png",
     },
     {
       name: "NuxtJS",
-      proficiency: 100,
+      proficiency: 80,
       logo: "/skill-icons/nuxt.png",
     },
     {
       name: "ExpressJS",
-      proficiency: 100,
+      proficiency: 85,
       logo: "/skill-icons/express.png",
     },
     {
       name: "PHP",
-      proficiency: 100,
+      proficiency: 85,
       logo: "/skill-icons/php.png",
     },
     {
       name: "Laravel",
-      proficiency: 100,
+      proficiency: 85,
       logo: "/skill-icons/laravel.jpeg",
     },
     {
       name: "MYSQL",
-      proficiency: 100,
+      proficiency: 85,
       logo: "/skill-icons/mysql.png",
     },
     {
       name: "PostgreSQL",
-      proficiency: 100,
+      proficiency: 85,
       logo: "/skill-icons/postgre.png",
     },
     {
       name: "AWS",
-      proficiency: 100,
+      proficiency: 60,
       logo: "/skill-icons/aws.png",
     },
     {
       name: "Supabase",
-      proficiency: 100,
+      proficiency: 85,
       logo: "/skill-icons/supabase.png",
     },
     {
       name: "Git",
-      proficiency: 100,
+      proficiency: 95,
       logo: "/skill-icons/git.png",
     },
   ];
