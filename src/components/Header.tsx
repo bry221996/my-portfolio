@@ -26,6 +26,11 @@ const Header = (props: Props) => {
           bgColor="transparent"
         />
         <SocialIcon
+          url="https://medium.com/@bryan.mulingbayan96"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
           url="https://web.facebook.com/bryan.mulingbayan.22/"
           fgColor="gray"
           bgColor="transparent"
