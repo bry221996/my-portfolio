@@ -1,96 +1,95 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import Skill from "./Skill";
-import { Skill as SkillType } from "@/types/Skill";
+'use client'
+import React from 'react'
+import { motion } from 'framer-motion'
+import Skill from './Skill'
+import { Skill as SkillType } from '@/types/Skill'
 
 const Skills = () => {
   const skills: SkillType[] = [
     {
-      name: "HTML",
+      name: 'HTML',
       proficiency: 90,
-      logo: "/skill-icons/html.png",
+      logo: '/skill-icons/html.png',
     },
     {
-      name: "CSS",
+      name: 'CSS',
       proficiency: 90,
-      logo: "/skill-icons/css.png",
+      logo: '/skill-icons/css.png',
     },
     {
-      name: "JS",
+      name: 'JS',
       proficiency: 90,
-      logo: "/skill-icons/js.png",
+      logo: '/skill-icons/js.png',
     },
     {
-      name: "ReactJS",
+      name: 'ReactJS',
       proficiency: 80,
-      logo: "/skill-icons/react.png",
+      logo: '/skill-icons/react.png',
     },
     {
-      name: "NextJS",
+      name: 'NextJS',
       proficiency: 80,
-      logo: "/skill-icons/next.png",
+      logo: '/skill-icons/next.png',
     },
     {
-      name: "VueJS",
+      name: 'VueJS',
       proficiency: 80,
-      logo: "/skill-icons/vue.png",
+      logo: '/skill-icons/vue.png',
     },
     {
-      name: "NuxtJS",
+      name: 'NuxtJS',
       proficiency: 80,
-      logo: "/skill-icons/nuxt.png",
+      logo: '/skill-icons/nuxt.png',
     },
     {
-      name: "ExpressJS",
+      name: 'ExpressJS',
       proficiency: 85,
-      logo: "/skill-icons/express.png",
+      logo: '/skill-icons/express.png',
     },
     {
-      name: "PHP",
+      name: 'PHP',
       proficiency: 85,
-      logo: "/skill-icons/php.png",
+      logo: '/skill-icons/php.png',
     },
     {
-      name: "Laravel",
+      name: 'Laravel',
       proficiency: 85,
-      logo: "/skill-icons/laravel.jpeg",
+      logo: '/skill-icons/laravel.jpeg',
     },
     {
-      name: "MYSQL",
+      name: 'MYSQL',
       proficiency: 85,
-      logo: "/skill-icons/mysql.png",
+      logo: '/skill-icons/mysql.png',
     },
     {
-      name: "PostgreSQL",
+      name: 'PostgreSQL',
       proficiency: 85,
-      logo: "/skill-icons/postgre.png",
+      logo: '/skill-icons/postgre.png',
     },
     {
-      name: "AWS",
+      name: 'AWS',
       proficiency: 60,
-      logo: "/skill-icons/aws.png",
+      logo: '/skill-icons/aws.png',
     },
     {
-      name: "Supabase",
+      name: 'Supabase',
       proficiency: 85,
-      logo: "/skill-icons/supabase.png",
+      logo: '/skill-icons/supabase.png',
     },
     {
-      name: "Git",
+      name: 'Git',
       proficiency: 95,
-      logo: "/skill-icons/git.png",
+      logo: '/skill-icons/git.png',
     },
-  ];
+  ]
 
   return (
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
-    >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl">
         Skills
       </h3>
 
@@ -104,7 +103,7 @@ const Skills = () => {
         ))}
       </div>
     </motion.div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills

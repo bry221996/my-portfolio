@@ -1,14 +1,14 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { Skill as SkillType } from "@/types/Skill";
+'use client'
+import React from 'react'
+import { motion } from 'framer-motion'
+import { Skill as SkillType } from '@/types/Skill'
 
 type Props = {
-  skill: SkillType;
-  direction?: "left" | "right";
-};
+  skill: SkillType
+  direction?: 'left' | 'right'
+}
 
-const Skill = ({ skill, direction = "left" }: Props) => {
+const Skill = ({ skill, direction = 'left' }: Props) => {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img
@@ -30,7 +30,7 @@ const Skill = ({ skill, direction = "left" }: Props) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Skill;
+export default Skill

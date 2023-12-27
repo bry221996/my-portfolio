@@ -1,35 +1,34 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/20/solid";
-import { Field, Form, Formik } from "formik";
+'use client'
+import React from 'react'
+import { motion } from 'framer-motion'
+import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/20/solid'
+import { Field, Form, Formik } from 'formik'
 
-type Props = {};
+type Props = {}
 
 const Contact = (props: Props) => {
   const onSubmit = (values: {
-    subject: string;
-    name: string;
-    email: string;
-    message: string;
+    subject: string
+    name: string
+    email: string
+    message: string
   }) => {
-    window.location.href = `mailto:bryan.mulingbayan96@gmail.com?subject=${values.subject}&body=Hi, my name is ${values.name}. ${values.message} (${values.email})`;
-  };
+    window.location.href = `mailto:bryan.mulingbayan96@gmail.com?subject=${values.subject}&body=Hi, my name is ${values.name}. ${values.message} (${values.email})`
+  }
 
   return (
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
-    >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl">
         Contact
       </h3>
 
       <div className="flex flex-col space-y-10">
         <h4 className="text-xl md:text-4xl font-semibold text-center">
-          I have got what you need.{" "}
+          I have got what you need.{' '}
           <span className="decoration-[#F7Ab0A]/50 underline">Lets Talk.</span>
         </h4>
 
@@ -48,13 +47,12 @@ const Contact = (props: Props) => {
 
           <Formik
             initialValues={{
-              name: "",
-              email: "",
-              subject: "",
-              message: "",
+              name: '',
+              email: '',
+              subject: '',
+              message: '',
             }}
-            onSubmit={onSubmit}
-          >
+            onSubmit={onSubmit}>
             <Form>
               <div className="space-y-2">
                 <div className="grid grid-cols-2 gap-2">
@@ -94,8 +92,7 @@ const Contact = (props: Props) => {
 
                 <button
                   type="submit"
-                  className="bg-[#F7AB0A] py-3 md:py-5 px-10 rounded-md text-black font-bold text-base md:text-lg w-full"
-                >
+                  className="bg-[#F7AB0A] py-3 md:py-5 px-10 rounded-md text-black font-bold text-base md:text-lg w-full">
                   Submit
                 </button>
               </div>
@@ -104,7 +101,7 @@ const Contact = (props: Props) => {
         </div>
       </div>
     </motion.div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
