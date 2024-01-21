@@ -1,23 +1,23 @@
-"use client";
+'use client'
 
-import React from "react";
-import { Cursor, useTypewriter } from "react-simple-typewriter";
-import BackgrounCircles from "./BackgrounCircles";
-import Image from "next/image";
-import Link from "next/link";
+import React from 'react'
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import BackgrounCircles from './BackgrounCircles'
+import Image from 'next/image'
+import Link from 'next/link'
 
-type Props = {};
+type Props = {}
 
 const Hero = (props: Props) => {
   const [text] = useTypewriter({
     words: [
       "Hi, The name's Bryan Mulingbayan",
-      "Who loves challenging opportunies",
+      'Who loves challenging opportunies',
       "Let's turn ideas into reality through the power of code and innovation!",
     ],
     loop: true,
     delaySpeed: 2000,
-  });
+  })
 
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden pt-24">
@@ -28,7 +28,7 @@ const Hero = (props: Props) => {
         height={128}
         className="relative rounded-full mx-auto object-cover flex-shrink-0 w-32 h-32"
         alt="Image"
-        src="/hero.jpg"
+        src="/profile.jpg"
       />
 
       {/* <motion.img
@@ -62,7 +62,7 @@ const Hero = (props: Props) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

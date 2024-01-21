@@ -199,7 +199,7 @@ const Projects = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-lg md:text-2xl">
         Projects
       </h3>
 
@@ -218,12 +218,12 @@ const Projects = () => {
 
                 <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                   <Link href={project.url} target="_blank">
-                    <h4 className="text-xl md:text-2xl lg:text-4xl font-semibold text-center">
+                    <h4 className="text-md sm:text-lg md:text-xl lg:text-4xl font-semibold text-center">
                       {project.name}
                     </h4>
                   </Link>
 
-                  <div className="text-xs tracking-wider leading-[150%] md:text-sm lg:text-lg text-center md:text-left space-y-5">
+                  <div className="text-[10px] sm:text-xs tracking-wider leading-[150%] md:text-sm lg:text-lg text-center md:text-left space-y-5">
                     {project.description.map((item, idx) => (
                       <p key={`desccription-${idx}`}>{item}</p>
                     ))}

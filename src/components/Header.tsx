@@ -1,10 +1,10 @@
-"use client";
+'use client'
 
-import React from "react";
-import { SocialIcon } from "react-social-icons";
-import { motion } from "framer-motion";
+import React from 'react'
+import { SocialIcon } from 'react-social-icons'
+import { motion } from 'framer-motion'
 
-type Props = {};
+type Props = {}
 
 const Header = (props: Props) => {
   return (
@@ -13,8 +13,7 @@ const Header = (props: Props) => {
         initial={{ x: -500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 1.5 }}
-        className="flex flex-row items-center"
-      >
+        className="flex flex-row items-center">
         <SocialIcon
           url="https://www.linkedin.com/in/bryan-mulingbayan-b915aa168/"
           fgColor="gray"
@@ -41,8 +40,7 @@ const Header = (props: Props) => {
         initial={{ x: 500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 1.5 }}
-        className="flex flex-row items-center text-gray-300 cursor-pointer"
-      >
+        className="flex flex-row items-center text-gray-300 cursor-pointer">
         <SocialIcon
           className="cursor-pointer"
           url="mailto:bryan.mulingbayan96@gmail.com"
@@ -55,7 +53,7 @@ const Header = (props: Props) => {
         </p>
       </motion.div>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

@@ -11,7 +11,7 @@ const About = (props: Props) => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       className="h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-lg md:text-2xl">
         About
       </h3>
 
@@ -20,15 +20,15 @@ const About = (props: Props) => {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        src="/hero.jpg"
-        className="mt-36 -mb:20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
+        src="/formal.jpg"
+        className="mt-36 -mb:20 md:mb-0 flex-shrink-0 w-40 h-40 sm:w-56 sm:h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
       />
 
-      <div className="space-y-10 px-0 md:px-10">
+      <div className="space-y-4 md:space-y-10 px-0 md:px-10">
         <h4 className="text-xl md:text-4xl font-semibold">
           Here is a little background
         </h4>
-        <div className="text-xs md:text-sm space-y-2 md:space-y-4">
+        <div className="text-[10px] sm:text-xs md:text-sm space-y-2 md:space-y-4">
           <p>
             Hello, I&apos;m Bryan Mulingbayan, a passionate and dedicated
             software engineer based in the Philippines. I&apos;m 27 years old
