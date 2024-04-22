@@ -26,6 +26,24 @@ const Projects = () => {
 
   const projects: ProjectType[] = [
     {
+      name: 'BTree',
+      logo: '/projects/btree.svg',
+      url: 'https://www.btree.com.au/',
+      description: [
+        '\n' +
+        'Btree: Transforming Planting Data Management\n' +
+        '\n' +
+        'As a frontend developer, I contributed to the development of Btree, an innovative application engineered with Nuxt.js and Laravel. Btree redefines planting data management for tradespeople, boasting intuitive user accounts, seamless data logging, and a powerful content management system (CMS). My involvement in building Btree underscores my commitment to creating impactful solutions that enhance user workflows and elevate their professional endeavors.'
+      ],
+      skills: [
+        {
+          name: 'NextJS',
+          proficiency: 100,
+          logo: '/skill-icons/next.png',
+        },
+      ],
+    },
+    {
       name: 'Best Life App',
       logo: '/projects/best_life_logo.webp',
       url: 'https://bestlifeapp.com.au/',
