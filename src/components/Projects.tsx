@@ -92,7 +92,7 @@ const Projects = () => {
     {
       name: 'Marketfyndr',
       logo: '/projects/marketfynder.svg',
-      url: 'https://afterlifeapp.net/',
+      url: 'https://www.marketfyndr.com/',
       description: [
         'As a Fullstack Developer for Marketfyndr, I played a key role in building a dynamic platform that allows clients to post their projects and connect with freelancers. I focused on creating an intuitive user interface and developing a robust backend system to manage user authentication, project submissions, and notifications, ensuring a seamless experience for all users. This project not only enhanced my technical skills in fullstack development but also deepened my understanding of the gig economy and the importance of fostering strong client-freelancer relationships.',
       ],
